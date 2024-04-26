@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:nwesify/controller/theme_controller.dart';
-import 'package:nwesify/utility/theme.dart';
-import 'package:nwesify/views/screens/home_page.dart';
+import 'package:nwesify/Controller/ThemeController.dart';
+import 'package:nwesify/utility/Theme.dart';
+import 'package:nwesify/views/screens/HomePage.dart';
 import 'package:provider/provider.dart';
 
-import 'controller/news_controller.dart';
+import 'Controller/NewsController.dart';
 
 void main() {
   runApp(MultiProvider(providers: [

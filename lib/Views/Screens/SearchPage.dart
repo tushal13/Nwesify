@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:nwesify/controller/news_controller.dart';
-import 'package:nwesify/views/screens/detail_page.dart';
+import 'package:nwesify/controller/NewsController.dart';
+import 'package:nwesify/views/screens/DetailPage.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:provider/provider.dart';
 
-import '../../controller/theme_controller.dart';
+import '../../controller/ThemeController.dart';
 
 class SearchPage extends StatelessWidget {
   const SearchPage({super.key});

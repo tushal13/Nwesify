@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../helper/news_helper.dart';
-import '../modal/news_modal.dart';
+import '../helper/NewsHelper.dart';
+import '../modal/NewsModal.dart';
 
 class NewsController extends ChangeNotifier {
   List<NewsModal> headline = [];

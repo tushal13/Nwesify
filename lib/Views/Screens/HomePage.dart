@@ -2,12 +2,12 @@ import 'package:country_icons/country_icons.dart';
 import 'package:country_picker/country_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:nwesify/controller/news_controller.dart';
-import 'package:nwesify/views/screens/headline_page.dart';
-import 'package:nwesify/views/screens/search_page.dart';
+import 'package:nwesify/controller/NewsController.dart';
+import 'package:nwesify/views/Screens/HeadlinePage.dart';
 import 'package:provider/provider.dart';
 
-import '../../controller/theme_controller.dart';
+import '../../controller/ThemeController.dart';
+import 'SearchPage.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

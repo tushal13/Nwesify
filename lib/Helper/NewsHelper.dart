@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 import 'package:logger/logger.dart';
-import 'package:nwesify/modal/news_modal.dart';
+import 'package:nwesify/modal/NewsModal.dart';
 
 class NewsApiHelper {
   NewsApiHelper._();

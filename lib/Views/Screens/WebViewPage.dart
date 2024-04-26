@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:nwesify/modal/news_modal.dart';
+import 'package:nwesify/modal/NewsModal.dart';
 
 class WebviewPage extends StatelessWidget {
   final NewsModal news;

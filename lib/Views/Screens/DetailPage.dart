@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:nwesify/controller/theme_controller.dart';
-import 'package:nwesify/views/screens/webview_page.dart';
+import 'package:nwesify/controller/ThemeController.dart';
+import 'package:nwesify/views/screens/WebViewPage.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:provider/provider.dart';
 
-import '../../modal/news_modal.dart';
+import '../../modal/NewsModal.dart';
 
 class DatailPage extends StatelessWidget {
   final NewsModal news;

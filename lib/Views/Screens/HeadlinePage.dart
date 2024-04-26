@@ -1,14 +1,14 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:nwesify/controller/news_controller.dart';
-import 'package:nwesify/utility/category_list.dart';
-import 'package:nwesify/views/screens/detail_page.dart';
-import 'package:nwesify/views/screens/webview_page.dart';
+import 'package:nwesify/utility/CategoryList.dart';
+import 'package:nwesify/views/screens/DetailPage.dart';
+import 'package:nwesify/views/screens/WebViewPage.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:provider/provider.dart';
 
-import '../components/headline_widget.dart';
+import '../../Controller/NewsController.dart';
+import '../components/HeadlineWidget.dart';
 
 class HeadlinePage extends StatelessWidget {
   const HeadlinePage({super.key});

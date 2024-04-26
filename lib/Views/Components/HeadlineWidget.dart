@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:nwesify/modal/news_modal.dart';
+import 'package:nwesify/modal/NewsModal.dart';
 import 'package:provider/provider.dart';
 
-import '../../controller/theme_controller.dart';
+import '../../controller/ThemeController.dart';
 
 class HeadlineTile extends StatelessWidget {
   final NewsModal headline;
